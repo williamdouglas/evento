@@ -1,0 +1,13 @@
+GET http://localhost:8080/evento
+
+###
+
+POST http://localhost:8080/evento HTTP/1.1
+content-type: application/json
+
+{
+    "nome" : "Curso Spring Boot",
+    "local" : "UFMG",
+    "horario" : "11:00 am",
+    "data" : "10/29/2021"
+}
